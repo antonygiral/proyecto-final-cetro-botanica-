@@ -1,58 +1,76 @@
-
-
 package Botanico;
 
 public class Botanico{
-    private String Nombre;
-    private String Tipo;
-    private list <Cuidados> Cuidados;
+    private String Licencia;
+    private String NombreB;
+    private String ApellidoB;
+    private String Email;
+    private String Celular;
+  
 
 
-    public Planta (String Nombre, String Tipo){
-        this.Nombre = Nombre;
-        this.Tipo = Tipo;
-        this.Cuidados = Cuidados;
+    public Botanico (String Licencia, String NombreB,String ApellidoB, String Email, string Celular ){
+        this.Licencia = Licencia;
+        this.NombreB = NombreB;
+        this.ApellidoB = ApellidoB;
+        this.Email = Email;
+        this.Celular = Celular;
 
     }
 
-    public String getNombre(){
-        return Nombre;
+    public String getLicencia(){
+        return Licencia;
 
     }
 
-    public void setNombre(String Nombre){
-        this.Nombre = Nombre;
+    public void setLicencia(String Licencia){
+        this.Licencia = Licencia;
+    }
+    
+
+    public String getNombreB(){
+        return NombreB;
+
+    }
+
+    public void setNombreB(String NombreB){
+        this.NombreB = NombreB;
+
+    }
+    public String getApellidoB(){
+        return ApellidoB;
+
+    }
+
+    public void setApellidoB(String ApellidoB){
+        this.ApellidoB = ApellidoB;
     }
     
 
-    public String getTipo(){
-        return Tipo;
-
-    }
-
-    public void setTipo(String Tipo){
-        this.Tipo = Tipo;
+    public String getEmail(){
+        return Email;
 
     }
     
-    public String getCuidados(){
-        return Cuidados;
+    public String getCelular(){
+        return Celular;
 
     }
 
-    public void setcuidados(list cuidados){
-        this. Cuidados = Cuidados;
+    public void setCelular(String Celular){
+        this.Celular = Celular;
+
     }
+    
+   
     @Override
 
     public String toString (){
-        return Super.toString()+"nombre"+Nombre+ ",tipo"+Tipo;
+        return Super.toString()+"Licencia"+Licencia+ ",Nombre"+NombreB+",Apellido"+ApellidoB+",Email"+Email+"Celular"+Celular;
 
     }
 
-    public void AgregarCuidado(Cuidados Cuidado){
-        Cuidados.add(Cuidado);
-    }
+    
 
 
 }
