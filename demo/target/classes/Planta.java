@@ -30,6 +30,15 @@ public class Planta {
 
     public void setTipo(String Tipo){
         this.Tipo = Tipo;
+
     }
     
+    public String get<Cuidados> Cuidados(){
+        return <Cuidados> Cuidados;
+
+    }
+
+    public void setTipo(String Tipo){
+        this.<Cuidados> Cuidados = <Cuidados> Cuidados;
+    }
 }
