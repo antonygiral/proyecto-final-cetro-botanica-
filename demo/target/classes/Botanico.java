@@ -1,6 +1,8 @@
-package com.example;
 
-public class Planta {
+
+package Botanico;
+
+public class Botanico{
     private String Nombre;
     private String Tipo;
     private list <Cuidados> Cuidados;
