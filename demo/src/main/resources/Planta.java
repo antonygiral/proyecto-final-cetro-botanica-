@@ -9,7 +9,7 @@ public class Planta {
     public Planta (String Nombre, String Tipo){
         this.Nombre = Nombre;
         this.Tipo = Tipo;
-        this.<Cuidados> Cuidados = <Cuidados> Cuidados;
+        this.Cuidados = Cuidados;
 
     }
 
@@ -24,7 +24,7 @@ public class Planta {
     
 
     public String getTipo(){
-        return Nombre;
+        return Tipo;
 
     }
 
@@ -33,13 +33,25 @@ public class Planta {
 
     }
     
-    public String get<Cuidados> Cuidados(){
-        return <Cuidados> Cuidados;
+    public String getCuidados(){
+        return Cuidados;
 
     }
 
-    public void setTipo(String Tipo){
-        this.<Cuidados> Cuidados = <Cuidados> Cuidados;
+    public void setcuidados(list cuidados){
+        this. Cuidados = Cuidados;
     }
+    @Override
+
+    public String toString (){
+        return Super.toString()+"nombre"+Nombre+ ",tipo"+Tipo;
+
+    }
+
+    public void AgregarCuidado(Cuidados Cuidado){
+        Cuidados.add(Cuidado);
+    }
+
+
 }
-  s
+  
