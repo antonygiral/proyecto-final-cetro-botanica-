@@ -1,35 +1,35 @@
 package com.example;
 
 public class Planta {
-    private String Nombre;
-    private String Tipo;
-    private list <Cuidados> Cuidados;
+    private String NombreP;
+    private String TipoP;
+    private list Cuidados;
 
 
-    public Planta (String Nombre, String Tipo){
-        this.Nombre = Nombre;
-        this.Tipo = Tipo;
+    public Planta (String NombreP, String TipoP){
+        this.NombreP = NombreP;
+        this.TipoP = TipoP;
         this.Cuidados = Cuidados;
 
     }
 
-    public String getNombre(){
-        return Nombre;
+    public String getNombreP(){
+        return NombreP;
 
     }
 
-    public void setNombre(String Nombre){
-        this.Nombre = Nombre;
+    public void setNombreP(String NombreP){
+        this.NombreP = NombreP;
     }
     
 
-    public String getTipo(){
-        return Tipo;
+    public String getTipoP(){
+        return TipoP;
 
     }
 
-    public void setTipo(String Tipo){
-        this.Tipo = Tipo;
+    public void setTipoP(String TipoP){
+        this.TipoP = TipoP;
 
     }
     
@@ -44,7 +44,7 @@ public class Planta {
     @Override
 
     public String toString (){
-        return Super.toString()+"nombre"+Nombre+ ",tipo"+Tipo;
+        return Super.toString()+"Nombre"+NombreP+ ",Tipo"+TipoP;
 
     }
 
