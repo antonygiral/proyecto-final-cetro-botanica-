@@ -1,4 +1,4 @@
-package Botanico;
+package com.example;
 
 public class Botanico{
     private String Licencia;
