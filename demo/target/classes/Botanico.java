@@ -59,7 +59,6 @@ public class Botanico{
 
     public void setCelular(String Celular){
         this.Celular = Celular;
-
     }
     
    
