@@ -1,4 +1,4 @@
-package com.example;
+package example;
 
 public class Planta {
     private String NombreP;
