@@ -1,4 +1,4 @@
-package Cuidado;
+package com.example;
 
 
 public class Cuidado {
