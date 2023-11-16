@@ -66,7 +66,7 @@ public class Cuidado {
     @Override
 
     public String toString (){
-        return Super.toString()+"Especializacion"+Especializacion+ ",Nombre"+FechaHora+",Apellido"+BotanicosAsignados+",Resultado"+Resultado+"Estado"+Estado;
+        return Super.toString()+"Especializacion"+Especializacion+ ",Fecha y hora"+FechaHora+",botanico"+BotanicosAsignados+",Resultado"+Resultado+"Estado"+Estado;
 
     }
 
