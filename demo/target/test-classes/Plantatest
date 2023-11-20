@@ -7,7 +7,7 @@ public class PlantaTest {
    @Test
    public void testAgregarCuidado() {
         Planta planta = new Planta("Rosa", "Arbusto");
-        Cuidado cuidado = new Cuidado(/* ... */); 
+        Cuidado cuidado = new Cuidado(bañar); 
 
         planta.agregarCuidado(cuidado);
 
@@ -17,8 +17,8 @@ public class PlantaTest {
     @Test
     public void testGetCuidados() {
         Planta planta = new Planta("Girasol", "Flor");
-        Cuidado cuidado1 = new Cuidado(/* ... */); 
-        Cuidado cuidado2 = new Cuidado(/* ... */); 
+        Cuidado cuidado1 = new Cuidado(lavar); 
+        Cuidado cuidado2 = new Cuidado(cortar); 
 
         planta.agregarCuidado(cuidado1);
         planta.agregarCuidado(cuidado2);
