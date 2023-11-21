@@ -1,8 +1,7 @@
+package com.example;
 
 
 
-import com.example.otropaquete.Botanico;
-import com.example.otropaquete.Planta;
 
 public class Main {
 
