@@ -1,6 +1,8 @@
-package Botanico;
+package  com.example;
 
-public class Botanico{
+import com.example.CentroBotanicoMain;
+
+public class Botanico extends CentroBotanicoMain{
     private String Licencia;
     private String NombreB;
     private String ApellidoB;
