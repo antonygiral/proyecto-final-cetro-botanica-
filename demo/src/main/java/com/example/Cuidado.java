@@ -3,32 +3,32 @@ package com.example;
 import java.util.List; 
 
 public class Cuidado {
-    private String NombreP;
-    private String TipoP;
+    private String NombreC;
+    private String Planta;
     private List<Cuidado> Cuidados; 
 
-    public Cuidado(String NombreP, String TipoP, List<Cuidado> Cuidados) {
-        this.NombreP = NombreP;
-        this.TipoP = TipoP;
+    public Cuidado(String NombreC, String Planta, List<Cuidado> Cuidados) {
+        this.NombreC = NombreC;
+        this.Planta = Planta;
         this.Cuidados = Cuidados;
     }
 
   
-    public String getNombreP() {
-        return NombreP;
+    public String getNombreC() {
+        return NombreC;
     }
 
-    public void setNombreP(String NombreP) {
-        this.NombreP = NombreP;
+    public void setNombreC(String NombreC) {
+        this.NombreC = NombreC;
     }
 
-    // Getters y setters para TipoP
-    public String getTipoP() {
-        return TipoP;
+    // Getters y setters para Planta
+    public String getPlanta() {
+        return Planta;
     }
 
-    public void setTipoP(String TipoP) {
-        this.TipoP = TipoP;
+    public void setPlanta(String Planta) {
+        this.Planta = Planta;
     }
 
     
@@ -44,7 +44,7 @@ public class Cuidado {
     
     @Override
     public String toString() {
-        return super.toString() + "Nombre" + NombreP + ", Tipo" + TipoP;
+        return super.toString() + "Nombre" + NombreC + ", Tipo" + Planta;
     }
 
     

@@ -3,7 +3,7 @@ package com.example;
 
 
 
-public class Main {
+public class CentroBotanico {
 
     public static void main(String[] args) {
         
