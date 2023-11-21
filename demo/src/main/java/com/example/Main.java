@@ -1,14 +1,14 @@
 package com.example;
+import com.example.otropaquete.Botanico;
+import com.example.otropaquete.Planta;
 
-
-public class Main{
+public class Main {
 
     public static void main(String[] args) {
         
         Planta planta1 = new Planta("Rosa", "Arbusto");
         Planta planta2 = new Planta("Girasol", "Flor");
 
-        
         Botanico botanico1 = new Botanico("Licencia1", "Nombre1", "Apellido1", "email1", "123456789");
         Botanico botanico2 = new Botanico("Licencia2", "Nombre2", "Apellido2", "email2", "987654321");
 
@@ -18,11 +18,9 @@ public class Main{
         planta1.agregarCuidado(cuidado1);
         planta2.agregarCuidado(cuidado2);
 
-        
         cuidado1.asignarBotanico(botanico1);
         cuidado2.asignarBotanico(botanico2);
 
-       
         System.out.println("Información del Centro Botánico:");
         System.out.println("---- Plantas Registradas ----");
         System.out.println(planta1);
