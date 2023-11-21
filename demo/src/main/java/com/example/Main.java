@@ -1,6 +1,7 @@
 package com.example;
-import class Planta;
-public class com.example.CentroBotanicoMain {
+
+
+public class CentroBotanicoMain{
 
     public static void main(String[] args) {
         
