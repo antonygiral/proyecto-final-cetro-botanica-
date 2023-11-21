@@ -1,7 +1,7 @@
 package com.example;
 
 
-public class CentroBotanicoMain{
+public class Main{
 
     public static void main(String[] args) {
         

@@ -1,6 +1,5 @@
 package  com.example;
 
-import com.example.CentroBotanicoMain;
 
 public class Botanico extends CentroBotanicoMain{
     private String Licencia;
